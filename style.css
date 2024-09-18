@@ -40,6 +40,10 @@ li a:hover {
     background-color: #111;
 }
 
+#paddingtop {
+    margin-top: 100px;
+}
+
 .content {
     padding: 10px;
 }
@@ -48,6 +52,10 @@ img {
     border-radius: 50%;
     height: 200px;
     width: auto;
+}
+
+#paddingbottom {
+    margin-bottom: 100%;
 }
 
 section {
@@ -61,7 +69,7 @@ p {
 
 footer {
     font-size: smaller;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     padding: 20px 0;
