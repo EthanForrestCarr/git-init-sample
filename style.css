@@ -11,16 +11,15 @@ body {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: rgb(78, 114, 162);
 }
 
 ul {
-    position: absolute;
-    top: 0;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: visible;
+    overflow: auto;
     background-color: rgb(78, 114, 162);
 }
   
@@ -61,6 +60,10 @@ p {
 }
 
 footer {
+    font-size: smaller;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     padding: 20px 0;
     text-align: left;
     background-color: rgb(78, 114, 162);
