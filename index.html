@@ -3,38 +3,51 @@
 
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="./style.css">
-        <title>Landing Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <title>Chester's Landing Page</title>
     </head>
 
     <body>
+
         <header>
-            <ul>
+            <nav class="righttext">
                 <li><a href="https://github.com/EthanForrestCarr">Git Hub</a></li>
                 <li><a href="somewebsite">Portfolio</a></li>
-                <li><a href="someotherwebsite">Contact</a></li>
-            </ul>
+                <li><a href="#contact">Contact</a></li>
+            </nav>
         </header>
-        <div id="paddingtop">
-        </div>
-        <content class="content">
-            <h1>Chester</h1>
-            <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/sheepadoodle-jen-vax.jpg" alt="Sheepadoole">
-            <p>This landing page not brought to you by the Cheeto cheta.</p>
-        </content>
-        <div id="paddingbottom">
-        </div>
-        <section>
-            <h3>Throw Me A Bone</h3>
-            <form>
-                <p>Name: <input type="text" id="name" name="Name"></p>
-                <p>Email: <input type="text" id="email" name="Email"></p>
-                <input type="submit">
-            </form>
-        </section> 
-        <footer>
+
+        <main>
+            <h1 class="centertext">Chester</h1>
+            <figure>
+                <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/sheepadoodle-jen-vax.jpg" alt="Sheepadoole">
+                <figcaption class="centertext">This landing page not brought to you by the Cheeto cheetah.</figcaption>
+            </figure>
+            <section id="bone">
+                <h2 class="centertext">Throw Me A Bone</h2>
+                <form>
+                    <ul>
+                        <li>
+                            <label class="righttext" for="name">Name</label>
+                            <input type="text" id="name" name="username">
+                        </li>
+                        <li>
+                            <label class="righttext" for="email">Email</label>
+                            <input type="text" id="email" name="useremail">
+                        </li>
+                    </ul>
+                    <div class="centertext">
+                        <button type="submit">SEND</button>
+                    </div>
+                </form>
+            </section> 
+        </main>
+
+        <footer class="centertext">
             <p>©2024 Sweepadoodle Technologies</p>
         </footer>
+
     </body>
 
 </html>
